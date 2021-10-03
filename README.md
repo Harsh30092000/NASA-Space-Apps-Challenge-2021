@@ -13,7 +13,7 @@ Link:- https://power.larc.nasa.gov/data-access-viewer/
 2) Temperature at 2 meters
 For our project, the datasets are to be dynamic since the data changes according to the user-specified location. We utilized the power portal's API to fetch data and use the same for training the ML model.
 
-> Screenshots of web app
+> ###Screenshots of web app
 <img src="Assets/home.png" alt="" />
 <img src="Assets/predictor.png" alt="" />
 <img src="Assets/compare.png" alt="" />
