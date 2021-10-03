@@ -160,7 +160,7 @@ export class GetData extends Component {
                             {this.state.lat && this.state.lng ?
                                 <div className="map">
                                     <img src={`https://maps.googleapis.com/maps/api/staticmap?center=
-          ${this.state.lat},${this.state.lng}&zoom=17&size=1204x500&sensor=false&markers=color:red%7C${this.state.lat},${this.state.lng}&key=AIzaSyBZKgOw0iHBsgviKcnRqih4p2iPfOz4Jd8`} alt="map" className="getData__map" />
+          ${this.state.lat},${this.state.lng}&zoom=17&size=1204x500&sensor=false&markers=color:red%7C${this.state.lat},${this.state.lng}&key=API_KEY`} alt="map" className="getData__map" />
                                 </div>
                                 :
                                 <div className="map">
