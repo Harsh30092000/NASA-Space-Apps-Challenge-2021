@@ -1,0 +1,105 @@
+.power__info {
+    width: 25%;
+    text-align: center;
+}
+.power__highchart {
+    flex: 1;
+}
+.power__info__location {
+    font-size: calc(1.35vh + 1.35vw);
+    margin-top: 7.5vh;
+}
+.power__info__tempBox {
+    display: flex;
+    border: 2px solid rgb(196, 196, 196);
+    background-color: rgba(196, 196, 196, 0.4);
+    font-size: calc(0.8vh + 0.8vw);
+    margin: 40px 0;
+    border-radius: 4px;
+    padding: 3px 0;
+}
+.power__info__tempBox__checkbox {
+    width: 40px;
+    height: 40px;
+}
+.power__info__comment {
+    font-size: calc(1.25vh + 1.25vw);
+    color: rgb(92, 196, 83);
+    /* line-height: 30px; */
+}
+.power__options {
+    width: 27%;
+}
+.power__options1 {
+    width: 15%;
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.power__options__button {
+    font-size: calc(1.1vh + 1.1vw);
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    width: 100%;
+    border: none;
+    margin: 0.75vh 0;
+    padding: 1.75vh 0;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    border: 3px solid #f77c03;
+    cursor: pointer;
+}
+.card {
+    background-color: #fff;
+    margin: 0 20px;
+    height: 100%;
+    border-radius: 8px;
+    text-align: center;
+}
+.card__title {
+    color: #f77c03;
+    font-size: calc(2.5vh + 2.5vw);
+    font-weight: 500;
+    padding-top: 3vh;
+}
+.card__time {
+    color: #0c1f49;
+    font-size: calc(1vh + 1vw);
+    font-weight: 500;
+    padding-top: 1vh;
+}
+.card__content {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: 30px;
+    /* margin-top: 35px; */
+}
+.card__content__value {
+    color: #f77c03;
+    font-size: calc(4vh + 4vw);
+    /* font-size: calc(3.75vh + 3.75vw); */
+    font-weight: 500;
+}
+.card__content__unit {
+    color: #0c1f49;
+    font-size: calc(1.4vh + 1.4vw);
+    /* font-size: calc(1.25vh + 1.25vw); */
+    font-weight: 500;
+}
+
+.backArrow1 {
+    width: 35%;
+    margin-right: 0;
+    margin-left: auto;
+    font-size: calc(1vh + 1vw);
+    padding: 6px 15px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.438);
+    cursor: pointer;
+    z-index: 10;
+}
