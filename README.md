@@ -3,7 +3,7 @@
 <img src="Assets/team_hawks.png" alt="" />
 
 > ### PPT Link: 
-> https://docs.google.com/presentation/d/1I9IAYzVxoGKFhAv0RVfS8HozsTyBmp3DRH7ntCrLFM0/edit#slide=id.gda9ae928c0_0_129
+> https://docs.google.com/presentation/d/1I9IAYzVxoGKFhAv0RVfS8HozsTyBmp3DRH7ntCrLFM0/edit?usp=sharing
 > ### Short Video: 
 > https://youtu.be/FJ5ijRl5q9g
 > ### Descriptive Video: 
