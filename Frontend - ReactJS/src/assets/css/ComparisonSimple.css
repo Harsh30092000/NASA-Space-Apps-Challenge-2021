@@ -1,0 +1,73 @@
+.comp__container {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 7.5vh;
+    text-align: center;
+}
+.comp__boxes {
+    display: flex;
+    justify-content: center;
+}
+.comp__box {
+    width: 50%;
+    height: 100%;
+    border: 3px solid #fff;
+    margin: 0 2vw;
+    padding: 20px;
+    border-radius: 16px;
+}
+.comp__box__top,
+.comp__box__bottom {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.comp__box__logo img {
+    width: 350px;
+}
+.comp__box__logo1 img {
+    width: 290px;
+}
+.comp__box__bottom__item {
+    width: 50%;
+}
+.comp__box__bottom__item__title {
+    font-size: calc(1.35vw + 1.35vh);
+    font-weight: 500;
+    margin: 20px 0 10px 0;
+}
+.comp__box__bottom__item__value {
+    font-size: calc(1.5vw + 1.5vh);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.comp__box__year {
+    flex: 1;
+    font-size: calc(1.7vw + 1.7vh);
+    font-weight: 500;
+}
+.comp__comment {
+    font-size: calc(1.7vw + 1.7vh);
+    font-weight: 500;
+    margin-top: 50px;
+}
+.comp__buttons {
+    margin-top: 30px;
+}
+.comp__button1, .comp__button2 {
+    background-color: transparent;
+    border:3px solid #f77c03;
+    color: #fff;
+    font-size: calc(1vw + 1vh);
+    font-weight: 500;
+    padding: 15px 0;
+    border-radius: 8px;
+    width: 25%;
+    margin: 0 1vw;
+    font-family: "Ubuntu";
+    cursor: pointer;
+}
+.comp__button1 {
+    background-color: #f77c03;
+    color: #0c1f49;
+}

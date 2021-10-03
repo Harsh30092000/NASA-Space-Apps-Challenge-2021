@@ -1,0 +1,44 @@
+.home__left__title__top {
+    font-size: calc(3.25vh + 3.25vw);
+    font-weight: 500;
+    margin-top: 3vh;
+}
+.home__left__title__bottom {
+    font-size: calc(2vh + 2vw);
+    font-weight: 500;
+    padding-top: 1.5vh;
+}
+.home__left__buttons {
+    padding-top: 2vh;
+    margin: 0 auto;
+}
+/* .home__left__button {
+    color: #0c1f49;
+    font-size: calc(1.25vh + 1.25vw);
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    width: 60%;
+    border: none;
+    margin-top: 4vh;
+    padding: 1.5vh 0;
+    border-radius: 8px;
+    background: #f77c03;
+    box-shadow: 0px 0px 10px 3px #f23f02;
+    cursor: pointer;
+} */
+
+.home__left__button {
+    color: #0c1f49;
+    font-size: calc(1.25vh + 1.25vw);
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    width: 270px;
+    border: none;
+    margin: 10px 20px;
+    margin-top: 4vh;
+    padding: 2.5vh 20px;
+    border-radius: 8px;
+    background: #f77c03;
+    box-shadow: 0px 0px 10px 3px #f23f02;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.fea__expression {
+    width: 250px;
+}
+.fea__text {
+    width: 40%;
+    font-size: calc(1.5vh + 1.5vw);
+    margin: 50px auto;
+    margin-bottom: 20px;
+}
+.fea__amount{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    color: #0FA958;
+}
+.fea__amount__value {
+    font-size: calc(3vh + 3vw);
+    font-weight: 500;
+}
+.fea__amount__unit {
+    font-size: calc(1.5vh + 1.5vw);
+    font-weight: 500;
+}
+.fea__disclaimer {
+    margin-top: 10px;
+    font-size: calc(0.8vh + 0.8vw);
+}

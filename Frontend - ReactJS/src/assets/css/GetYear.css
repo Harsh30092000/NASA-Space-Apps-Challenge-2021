@@ -1,0 +1,63 @@
+.get1 {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 7vh;
+}
+.get1__header {
+    font-size: calc(2.5vh + 2.5vw);
+    color: #f77c03;
+    font-weight: 500;
+}
+.get1__userIp__disc {
+    font-size: calc(1.25vh + 1.25vw);
+    font-weight: 500;
+    margin-top: 5vh;
+}
+.get1__userIp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+.get1__userIp__side{
+    margin: 20px;
+}
+.get_userIp__box {
+    border: 2px solid #fff;
+    font-size: calc(1vh + 1vw);
+    display: flex;
+    width: 20vw;
+    height: 8vh;
+    position: relative;
+}
+.get_userIp__box__left{
+    border-right: 2px solid #fff;
+    width: 50%;
+    line-height: 8vh;
+}
+.get_userIp__box__right{
+    width: 49%;
+    line-height: 8vh;
+    font-size: calc(1vh + 1vw);
+    background-color: transparent;
+    border: none;
+    text-align: center;
+    color: #fff;
+    outline: none;
+}
+.get1__button {    
+    color: #0c1f49;
+    font-size: calc(1.25vh + 1.25vw);
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    width: 20%;
+    border: none;
+    margin-top: 6vh;
+    padding: 1.5vh 0;
+    border-radius: 8px;
+    background: #f77c03;
+    box-shadow: 0px 0px 10px 3px #f23f02;
+    cursor: pointer;
+}

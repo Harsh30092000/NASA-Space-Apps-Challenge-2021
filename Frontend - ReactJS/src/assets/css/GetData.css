@@ -1,0 +1,245 @@
+.map {
+    /* margin-right: -50px; */
+    position: relative;
+    margin: 0 auto;
+}
+.getData__map__dummy {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.68);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.getData__map__dummy__button {
+    color: #0c1f49;
+    font-size: calc(1.25vh + 1.25vw);
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    width: 90%;
+    border: none;
+    margin-top: 28vh;
+    padding: 1.5vh 0;
+    border-radius: 8px;
+    background: #f77c03;
+    cursor: pointer;
+}
+
+.getData__latlong {
+    display: flex;
+    font-size: calc(1.3vh + 1.3vw);
+}
+.getData__latlong__title {
+    margin: 0 1vw;
+}
+.getData__latlong__input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    color: #ffffff;
+    font-size: calc(1.1vh + 1.1vw);
+
+    font-family: 'Ubuntu';
+    outline: none;
+    border-radius: 0;
+    width: 22%;
+    height: 30px;
+}
+
+.getData__userInput {
+    height: 50vh;
+}
+.getData__userInput__questionPart,
+.getData__userInput__yesPart,
+.getData__userInput__noPart,
+.getData__userInput__perfPart {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    margin-top: 50px;
+}
+
+.getData__userInput__question {
+    font-size: calc(1.7vh + 1.7vw);
+    width: 70%;
+    margin: 0 auto;
+}
+.getData__userInput__button__yes,
+.getData__userInput__button__no {
+    font-size: calc(1.25vh + 1.25vw);
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    width: 20%;
+    border: none;
+    padding: 1.5vh 0;
+    margin: 0 1vw;
+    margin-top: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: 3px solid #f77c03;
+}
+.getData__userInput__button__yes {
+    background: #f77c03;
+    color: #0c1f49;
+}
+.getData__userInput__button__no {
+    background: transparent;
+    color: #ffffff;
+}
+
+.getData__userInput__question1 {
+    font-size: calc(1.35vh + 1.35vw);
+}
+.getData__userInput__answer {
+    display: flex;
+    justify-content: center;
+    margin-top: 3vh;
+}
+.getData__userInput__answer__input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    color: #ffffff;
+    font-size: calc(1.25vh + 1.25vw);
+    font-family: 'Ubuntu';
+    outline: none;
+    border-radius: 0;
+    width: 22%;
+    height: 35px;
+    text-align: center;
+}
+.getData__userInput__answer__unit {
+    font-size: calc(1.1vh + 1.1vw);
+    margin-left: 1vw;
+    width: 6vw;
+    padding: 5px 0;
+    background-color: rgba(196, 196, 196, 0.4);
+}
+.getData__userInput__answer__input1 {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    color: #ffffff;
+    font-size: calc(1.25vh + 1.25vw);
+    font-family: 'Ubuntu';
+    outline: none;
+    border-radius: 0;
+    width: 17%;
+    height: 35px;
+    text-align: center;
+}
+.getData__userInput__answer__unit1 {
+    font-size: calc(1.1vh + 1.1vw);
+    margin-left: 1vw;
+    /* width: 6vw; */
+    padding: 5px 0;
+    /* background-color: rgba(196, 196, 196, 0.4); */
+}
+.getData__submit {
+    color: #0c1f49;
+    font-size: calc(1.25vh + 1.25vw);
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    width: 35%;
+    border: none;
+    margin-top: 6vh;
+    padding: 1.5vh 0;
+    border-radius: 8px;
+    background: #f77c03;
+    box-shadow: 0px 0px 10px 3px #f23f02;
+    cursor: pointer;
+}
+.getData__submit1 {
+    color: #0c1f49;
+    font-size: calc(1.25vh + 1.25vw);
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    width: 35%;
+    border: none;
+    margin-top: 6vh;
+    padding: 1.5vh 0;
+    border-radius: 8px;
+    background: #f77c03;
+    /* box-shadow: 0px 0px 10px 3px #f23f02; */
+    cursor: pointer;
+}
+.getData__submit1 {
+    color: #0c1f49;
+    font-size: calc(1.25vh + 1.25vw);
+    font-weight: 500;
+    font-family: 'Ubuntu';
+    width: 25%;
+    border: none;
+    margin-top: 7.5vh;
+    padding: 1.5vh 0;
+    border-radius: 8px;
+    background: #f77c03;
+    /* box-shadow: 0px 0px 10px 3px #f23f02; */
+    cursor: pointer;
+}
+.getData__userInput__noPart {
+    display: none;
+}
+.getData__userInput__yesPart {
+    display: none;
+}
+.getData__userInput__perfPart {
+    display: none;
+}
+/* .getData__userInput__questionPart {
+    display: none;
+} */
+.getData__map {
+    width: 100%;
+}
+.getLoc__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.getLoc__form__name {
+    font-size: calc(2.5vh + 2.5vw);
+    font-weight: 500;
+}
+.getLoc__form__input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid #ffffff;
+    color: #ffffff;
+    font-size: calc(1.25vh + 1.25vw);
+    font-family: 'Ubuntu';
+    outline: none;
+    border-radius: 0;
+    width: 70%;
+    height: 35px;
+    text-align: center;
+}
+.getPerf__button1,
+.getPerf__button2 {
+    background-color: transparent;
+    border: 2px solid #f77c03;
+    color: #ffffff;
+    font-size: calc(1vh + 1vw);
+    padding: 10px 0;
+    font-family: 'Ubuntu';
+    width: 30%;
+    cursor: pointer;
+    margin-top: 3vh;
+    margin-bottom: 4vh;
+    font-weight: 500;
+    transition: 0.3s;
+}
+.getPerf__button1 {
+    border-radius: 8px 0 0 8px;
+}
+.getPerf__button2 {
+    border-radius: 0 8px 8px 0;
+}
+.getPerf__button__active {
+    color: #0c1f49;
+    background-color: #f77c03;
+}

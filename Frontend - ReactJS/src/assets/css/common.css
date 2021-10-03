@@ -1,0 +1,183 @@
+.bg {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-image: url(../images/starsbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sac {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 200px;
+    /* height: 50px;
+    background-image: url(../images/sac.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+}
+.hawks {
+    width: 50%;
+    border-radius: 8px;
+}
+.left {
+    flex: 1;
+    position: relative;
+}
+.right {
+    width: 50%;
+    position: relative;
+}
+
+.top {
+    padding: 0 7.5%;
+    flex: 1;
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+}
+.bottom {
+    padding: 0 7%;
+    height: 37.5%;
+    position: relative;
+    display: flex;
+    /* background-color: aliceblue; */
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.center {
+    position: absolute;
+    width: fit-content;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.spinner_load {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.527);
+    z-index: 9999;
+    display: none;
+}
+
+/* Team */
+.container1 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+.container1 .card1 {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgBx img {
+    width: 300px;
+    height: 300px;
+}
+.container1 .card1 .content {
+    position: absolute;
+    bottom: -160px;
+    width: 100%;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    flex-direction: column;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 -10px 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    transition: bottom 0.5s;
+    transition-delay: 0.65s;
+}
+.container1 .card1:hover .content {
+    bottom: 0;
+    transition-delay: 0s;
+}
+.container1 .card1 .content .contentBx h3 {
+    /* text-transform: uppercase; */
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin: 20px 0 15px;
+    line-height: 1.1em;
+    transition: 0.5s;
+    transition-delay: 0.6s;
+    opacity: 0;
+    transform: translateY(-20px);
+}
+.container1 .card1:hover .content .contentBx h3 {
+    opacity: 1;
+    transform: translateY(0);
+}
+.container1 .card1 .content .contentBx h3 span {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+.container1 .card1 .content .sci {
+    margin-left: -43px;
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+.container1 .card1 .content .sci li {
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.2s * var(--i));
+}
+
+.container1 .card1:hover .content .sci li {
+    transform: translateY(0);
+    opacity: 1;
+}
+.container1 .card1 .content .sci li a {
+    color: white;
+    font-size: 24px;
+}
