@@ -14,11 +14,11 @@ Link:- https://power.larc.nasa.gov/data-access-viewer/
 For our project, the datasets are to be dynamic since the data changes according to the user-specified location. We utilized the power portal's API to fetch data and use the same for training the ML model.
 
 ### SCREENSHOTS OF THE WEB APPLICATION
-<div style="display: flex;">
+<div style="display: flex; width: 50%">
   <img src="Assets/home.png" alt="" />
   <img src="Assets/predictor.png" alt="" />
 </div>
-<div style="display: flex;">
+<div style="display: flex; width: 50%">
   <img src="Assets/compare.png" alt="" />
   <img src="Assets/visualizer.png" alt="" />
 </div>
