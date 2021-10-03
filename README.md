@@ -1,1 +1,1 @@
-# NASA-Space-Apps-Challenge-2021
+# **HEXOLAR by Team Hawks**
